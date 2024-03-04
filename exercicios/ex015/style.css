@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    background-color:rgba(233, 190, 222, 0.664);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 15px;
+
+}
+       h1{
+            color:blue;
+            background-color: rgb(155, 207, 203);
+        }
+        h2{
+            color: rgb(197, 87, 188);
+            background-color: black;
+        }
+        p{
+            text-align: justify;
+        }
