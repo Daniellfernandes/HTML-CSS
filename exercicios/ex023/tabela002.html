@@ -12,23 +12,39 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+        thead> tr> th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(88, 88, 88);
         }
         thead{
-            background-color: gray;
+            background-color: rgb(88, 88, 88);
             color: white;
+        }
+        tbody > tr:nth-child(odd) {
+            background-color: rgb(184, 175, 175);
+
         }
         
         
         td, th {
             border: 1px solid black;
             padding: 10px;
-            text-align: left;
+           
         }
         td.num{
             text-align:right;
         }
         tfoot{
-            background-color: gray;
+            background-color: rgb(88, 88, 88);
             color: white;
         }
     </style>
@@ -38,6 +54,8 @@
     <!--ANATOMIA PARA TABELAS GRANDES
     
     TABLE
+
+        CAPTION (LEGENDA DA TABELA)
         THEADE
             TR, TD, TH
         TBODY
@@ -46,10 +64,11 @@
             TR, TD, TH
         -->
         <table>
+            <caption>População das Unidades Federativas</caption>
             <thead>
                 <tr>
-                    <th>Estado</th>
-                    <th>População</th>
+                    <th scope="col">Estado</th>
+                    <th scope="col" style="width: 60px;">População</th>
 
                 </tr>
             </thead>
@@ -86,15 +105,87 @@
                     <td>Ceará</td>
                     <td class="num">8.794.957</td>
                 </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="num">11.444.380</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="num">11.444.380</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="num">11.444.380</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="num">11.444.380</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="num">11.444.380</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="num">11.444.380</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="num">11.444.380</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="num">11.444.380</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="num">11.444.380</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="num">11.444.380</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="num">11.444.380</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="num">11.444.380</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="num">11.444.380</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="num">11.444.380</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="num">11.444.380</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="num">11.444.380</td>
+                </tr>
+
+
 
             </tbody>
             <tfoot>
                 <tr>
-                    <th>Total de Habitantes</th>
+                    <th scope="row">Total de Habitantes</th>
                     <td class="num"><strong>139.169.916</strong></td>
                 </tr>
 
             </tfoot>
+            
         </table>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestiae necessitatibus dolor recusandae non iusto culpa illo expedita explicabo fugiat, inventore quisquam natus vero quos, sequi laborum, tenetur nisi nam?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem perspiciatis, totam eaque culpa aperiam eos optio vero non atque similique sit adipisci sed officiis, dignissimos at fuga cumque quos voluptatum.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse perferendis cupiditate rerum. Facilis quasi fuga eius porro quas tenetur. Nihil doloribus soluta labore laborum reprehenderit eos obcaecati facere incidunt blanditiis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, dicta ipsum praesentium reiciendis doloribus cum sapiente, sunt ratione veritatis sint dignissimos illo, corporis fuga facilis aliquid voluptatem obcaecati velit animi./p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestiae necessitatibus dolor recusandae non iusto culpa illo expedita explicabo fugiat, inventore quisquam natus vero quos, sequi laborum, tenetur nisi nam?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem perspiciatis, totam eaque culpa aperiam eos optio vero non atque similique sit adipisci sed officiis, dignissimos at fuga cumque quos voluptatum.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse perferendis cupiditate rerum. Facilis quasi fuga eius porro quas tenetur. Nihil doloribus soluta labore laborum reprehenderit eos obcaecati facere incidunt blanditiis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, dicta ipsum praesentium reiciendis doloribus cum sapiente, sunt ratione veritatis sint dignissimos illo, corporis fuga facilis aliquid voluptatem obcaecati velit animi./p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestiae necessitatibus dolor recusandae non iusto culpa illo expedita explicabo fugiat, inventore quisquam natus vero quos, sequi laborum, tenetur nisi nam?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem perspiciatis, totam eaque culpa aperiam eos optio vero non atque similique sit adipisci sed officiis, dignissimos at fuga cumque quos voluptatum.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse perferendis cupiditate rerum. Facilis quasi fuga eius porro quas tenetur. Nihil doloribus soluta labore laborum reprehenderit eos obcaecati facere incidunt blanditiis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, dicta ipsum praesentium reiciendis doloribus cum sapiente, sunt ratione veritatis sint dignissimos illo, corporis fuga facilis aliquid voluptatem obcaecati velit animi./p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestiae necessitatibus dolor recusandae non iusto culpa illo expedita explicabo fugiat, inventore quisquam natus vero quos, sequi laborum, tenetur nisi nam?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem perspiciatis, totam eaque culpa aperiam eos optio vero non atque similique sit adipisci sed officiis, dignissimos at fuga cumque quos voluptatum.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse perferendis cupiditate rerum. Facilis quasi fuga eius porro quas tenetur. Nihil doloribus soluta labore laborum reprehenderit eos obcaecati facere incidunt blanditiis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, dicta ipsum praesentium reiciendis doloribus cum sapiente, sunt ratione veritatis sint dignissimos illo, corporis fuga facilis aliquid voluptatem obcaecati velit animi./p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestiae necessitatibus dolor recusandae non iusto culpa illo expedita explicabo fugiat, inventore quisquam natus vero quos, sequi laborum, tenetur nisi nam?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem perspiciatis, totam eaque culpa aperiam eos optio vero non atque similique sit adipisci sed officiis, dignissimos at fuga cumque quos voluptatum.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse perferendis cupiditate rerum. Facilis quasi fuga eius porro quas tenetur. Nihil doloribus soluta labore laborum reprehenderit eos obcaecati facere incidunt blanditiis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, dicta ipsum praesentium reiciendis doloribus cum sapiente, sunt ratione veritatis sint dignissimos illo, corporis fuga facilis aliquid voluptatem obcaecati velit animi./p>
 </body>
 </html>
