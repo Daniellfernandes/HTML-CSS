@@ -11,8 +11,8 @@ body {
             background-color: rgb(155, 207, 203);
         }
         h2{
-            color: rgb(197, 87, 188);
-            background-color: black;
+            color: rgb(219, 84, 208);
+            background-color: rgba(0, 0, 0, 0.603);
         }
         p{
             text-align: justify;
