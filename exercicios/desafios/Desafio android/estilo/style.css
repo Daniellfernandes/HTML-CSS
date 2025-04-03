@@ -131,7 +131,7 @@ main a{
 }
 main a:hover{
     text-decoration: underline;
-    color: var(--cor4);
+    color: var(--cor5);
 }
 main img{
     width: 100%;
@@ -152,11 +152,11 @@ div.video{
     position: relative;
 }
 div.video > iframe{
-position: absolute;
-top:5% ;
-left: 5%;
-width: 90%;
-height: 90%;
+    position: absolute;
+    top:5% ;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 aside > h3{
     background-color: var(--cor4);
