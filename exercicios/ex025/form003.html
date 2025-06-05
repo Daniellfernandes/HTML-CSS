@@ -16,7 +16,7 @@
     <form action="cadastro.php" method="get" autocomplete="on">
     <p>
         <label for="inome">Nome</label>
-        <input type="text" name="nome" id="inome" required maxlength="25" placeholder="Nome Completo" autocomplete="on">
+        <input type="text" name="nome" id="inome" required maxlength="25" placeholder="Nome Completo" autocomplete="name">
     </p>
     <p>
         <label for="imedia">Média</label>
@@ -28,6 +28,11 @@
     </p>
         <label for="imes">Periodo Letivo</label>
         <input type="month" name="mes" id="imes" required>
+
+        <p>
+            <label for="ihora"> Hora da prova</label>
+            <input type="time" name="Hora" id="ihora" required>
+        </p>
     <p>
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
