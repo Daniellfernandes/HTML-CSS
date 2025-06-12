@@ -9,7 +9,7 @@ Desktop: 992px até 1200px
 Grandes telas: Acima de 1200px
 */
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
     span#burguer {
         display: none;
     }
@@ -22,5 +22,5 @@ Grandes telas: Acima de 1200px
 }
 
 main {
-    width: 768px;
+    width: 90vw;
 }
