@@ -62,9 +62,10 @@ main{
     text-align: center;
     background-color: white;
     margin: auto;
+    margin top: 10px;
     padding: 10px;
     border-radius: 10px;
-    margin-top: 10px;
+   
 }
 
 article > h2 {
